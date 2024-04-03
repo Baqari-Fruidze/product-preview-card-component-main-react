@@ -1,9 +1,12 @@
 import "./App.css";
+import Card from "./components/product/Card";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,122 @@
+.container {
+  padding: 2.8rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+}
+.sunamoM {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.sunamoD {
+  display: none;
+}
+.text-con {
+  background: #fff;
+  padding: 2rem 2.4rem 2.4rem 2.4rem;
+}
+.perfume {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Overline */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+.gabriela {
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  margin-bottom: 1.6rem;
+}
+.para {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 164.286% */
+  margin-bottom: 2.4rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+  margin-bottom: 2rem;
+}
+.first {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+.second {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 176.923% */
+  text-decoration-line: strikethrough;
+}
+.btn {
+  width: 100%;
+  padding: 1.4rem 0;
+  border-radius: 8px;
+  background: var(--Deep-Aquamarine, #3d8168);
+  border: none;
+}
+.btn span {
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 2%;
+}
+@media (min-width: 90rem) {
+  .sunamoM {
+    display: none;
+  }
+  .sunamoD {
+    display: block;
+    width: 50%;
+  }
+  .text-con {
+    padding: 3.2rem;
+  }
+  .container {
+    flex-direction: row;
+    padding: 0;
+    max-width: 66rem;
+  }
+  .perfume {
+    margin-bottom: 2rem;
+  }
+  .gabriela {
+    margin-bottom: 2.4rem;
+  }
+  .para {
+    margin-bottom: 2.9rem;
+  }
+  .price {
+    margin-bottom: 3rem;
+  }
+}
