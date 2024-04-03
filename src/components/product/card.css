@@ -119,4 +119,8 @@
   .price {
     margin-bottom: 3rem;
   }
+  .btn:hover {
+    border-radius: 8px;
+    background: var(--deep-aquamarine-hover, #1a4032);
+  }
 }
